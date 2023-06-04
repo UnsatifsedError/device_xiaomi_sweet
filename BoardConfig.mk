@@ -42,9 +42,6 @@ TARGET_KERNEL_CONFIG := sweet_defconfig
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-# Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
-
 # Screen density
 TARGET_SCREEN_DENSITY := 440
 
